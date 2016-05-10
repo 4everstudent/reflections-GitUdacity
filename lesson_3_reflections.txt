@@ -11,3 +11,6 @@ A fork is a GitHub clone, we should use this instead of cloning if we want to ch
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 To help how to resolve conflicts more easily.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would use SVN or other system like that. Git and GitHub had made everything easier, because it makes colaboration possible and easier no matter if you can work online all the time or not.
