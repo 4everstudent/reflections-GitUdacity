@@ -2,15 +2,18 @@ When would you want to use a remote repository rather than keeping all your work
 When I want to share my work, or I'm working with more people in the same project and even for backup reasons.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-I may want to control what I want to change in the remote repository, also, not making Git automatically stay up-to-date can minimize conflicts if there are more than one person working on the project.
+I may want to control what I want to change in the remote repository, also, not making Git automatically stay up-to-date can minimise conflicts if there are more than one person working on the project.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Branches are new "paths" of commits, we use branches to make commits that are not directly affecting the master branch.
-A clone is a copy of a repository, we can do it if we want to run a repository on different places (even in the same computer).
-A fork is a GitHub clone, we should use this instead of cloning if we want to change a repository but we are not contributors of the project but want to give a chance to people know the original contributor.
+A clone is a copy of a repository, we can do it if we want to run a repository on different places (even on the same computer).
+A fork is a GitHub clone, we should use this instead of cloning if we want to change a repository but we are not contributors to the project but want to give a chance to people know the original contributor.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 To help how to resolve conflicts more easily.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-I would use SVN or other system like that. Git and GitHub had made everything easier, because it makes colaboration possible and easier no matter if you can work online all the time or not.
+I would use SVN or another system like that. Git and GitHub had made everything easier because it makes collaboration possible and easier no matter if you can work online all the time or not.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Using a separate branch is better when you have a stable work and are just experimenting something, or if it is a new feature, or a similar work but with differences from the master. If I would be making smaller changes that didn't affect the entire project, I could be working directly in master and making my changes there because it would not compromise.
